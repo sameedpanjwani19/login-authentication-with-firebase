@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+</head>
+
+<body>
+    <div id="auth_container" class="wrapper2">
+        <span class="bg-animate2"></span>
+        <div class="form-box login">
+            <h2>Signup</h2>
+            <form action="">
+
+                <div id="loginEmail" class="input-box">
+                    <input id="signup_email" type="text" required>
+                    <label for="">Email</label>
+                    <span class="lnr lnr-envelope"></span>
+                </div>
+                <div id="loginPassword" class="input-box">
+                    <input id="signup_password" type="password" required>
+                    <label for="">Password</label>
+                    <span class="lnr lnr-lock"></span>
+                </div>
+                <button id="signup_btn" class="btn">Signup</button>
+
+                <p class="account">Already have an account? <a href="./login.html" id="login">Login</a></p>
+            </form>
+        </div>
+
+        <div class="info-text login">
+            <h2>Welcome Back!</h2>
+            <p>Hello! Are you New Here? Please Signup and Create Your Account.</p>
+        </div>
+    </div>
+
+    <div class="wrapper3" id="dashboard">
+        <h2>Dashboard</h2>
+        <p id="user_info"></p>
+        <button class="btn" id="logout">Logout</button>
+    </div>
+
+    <script src="./script.js" type="module"></script>
+</body>
+
+</html>
